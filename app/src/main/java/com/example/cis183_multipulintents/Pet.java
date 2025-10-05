@@ -1,10 +1,11 @@
 package com.example.cis183_multipulintents;
 
+import java.io.Serializable;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Pet
+public class Pet implements Serializable
 {
     // a pet is comprised of the following
     // name, age and species
